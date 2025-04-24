@@ -1,0 +1,161 @@
+[
+  {
+    "ContainingType": "PersonagensFiltro.Controllers.PersonagemController",
+    "Method": "Adicionar",
+    "RelativePath": "api/personagens/Adicionar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "personagem",
+        "Type": "PersonagensFiltro.Entity.Personagens",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonagensFiltro.Controllers.PersonagemController",
+    "Method": "Atualizar",
+    "RelativePath": "api/personagens/Atualizar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "personagem",
+        "Type": "PersonagensFiltro.Entity.Personagens",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonagensFiltro.Controllers.PersonagemController",
+    "Method": "Deletar",
+    "RelativePath": "api/personagens/Deletar/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonagensFiltro.Controllers.PersonagemController",
+    "Method": "MostrarPorId",
+    "RelativePath": "api/personagens/ObterPorId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonagensFiltro.Controllers.PersonagemController",
+    "Method": "ObterPorIdade",
+    "RelativePath": "api/personagens/ObterPorIdade/{idade}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idade",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonagensFiltro.Controllers.PersonagemController",
+    "Method": "ObterPorIdadeIgualMaiorQue",
+    "RelativePath": "api/personagens/ObterPorIdadeIgualMaiorQue/{idade}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idade",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonagensFiltro.Controllers.PersonagemController",
+    "Method": "ObterPorIdadeIgualMenorQue",
+    "RelativePath": "api/personagens/ObterPorIdadeIgualMenorQue/{idade}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idade",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonagensFiltro.Controllers.PersonagemController",
+    "Method": "ObterPorRaca",
+    "RelativePath": "api/personagens/ObterPorRaca/{raca}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "raca",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonagensFiltro.Controllers.PersonagemController",
+    "Method": "MostrarTodos",
+    "RelativePath": "api/personagens/ObterTodos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PersonagensFiltro.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[PersonagensFiltro.WeatherForecast, PersonagensFiltro, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

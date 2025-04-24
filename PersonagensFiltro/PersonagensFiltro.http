@@ -1,0 +1,6 @@
+@PersonagensFiltro_HostAddress = http://localhost:5284
+
+GET {{PersonagensFiltro_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
